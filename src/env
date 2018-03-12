@@ -1,0 +1,5 @@
+# Set `mate` as default visual mode editor
+export VISUAL="$(command -v -- mate)"
+
+# Set `mate` as default line editor
+export EDITOR="$VISUAL -w"
