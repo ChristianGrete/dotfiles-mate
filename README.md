@@ -3,10 +3,7 @@
 [![Depends on dotfiles][shield-dependency]][github-dotfiles-url]
 [![Latest GitHub Tag][shield-github-tag]][github-tags-url]
 
-> Coming soon: Christian Grete’s dotfiles package to setup TextMate
-
-## Note
-This branch does not contain any source files or artifacts as it is in its initial state. Please checkout the `develop` branch to get the current state of development.
+> Christian Grete’s dotfiles package to setup TextMate
 
 ## License
 
