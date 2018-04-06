@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog][keep-a-changelog-url] and this project
 - chore(git): setup excludes and commit message template [[#1](https://github.com/ChristianGrete/dotfiles-mate/pull/1)]
 - style(*): setup editors [[#2](https://github.com/ChristianGrete/dotfiles-mate/pull/2)]
 - feat(*): add source files [[#3](https://github.com/ChristianGrete/dotfiles-mate/pull/3)]
+- chore(*): add task binaries [[#4](https://github.com/ChristianGrete/dotfiles-mate/pull/4)]
 
 ### Unmerged
 

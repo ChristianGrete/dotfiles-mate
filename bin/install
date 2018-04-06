@@ -1,0 +1,12 @@
+#!/bin/sh
+
+cd "$(dirname "$0")/.."
+
+[ -z ${PWD:+PWD} ] || [ "$PWD" != "$(pwd)" ] && export PWD="$(pwd)"
+
+routines="$PWD/lib/install"
+
+for routine in setup link
+  do
+    . "$routines/$routine.sh"
+done

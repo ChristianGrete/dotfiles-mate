@@ -1,0 +1,24 @@
+#!/bin/sh
+
+cd "$(dirname "$0")/.."
+
+[ -z ${PWD:+PWD} ] || [ "$PWD" != "$(pwd)" ] && export PWD="$(pwd)"
+
+printf 'Removing `.DS_Store` files ... '
+
+find "$PWD" -name '.DS_Store' -type f -exec rm {} + >/dev/null 2>&1
+
+if [ $? -eq 0 ]
+  then
+    echo 'success.'
+else
+  echo 'failed.'
+fi
+
+printf 'Removing `./dist` artifact ... '
+
+rm -fr "$PWD/dist" >/dev/null 2>&1
+
+[ $? -ne 0 ] && echo 'failed.' && exit 1
+
+echo 'success.'

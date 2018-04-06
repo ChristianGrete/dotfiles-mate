@@ -45,3 +45,9 @@ wrapColumn = "Use Window Frame"
 
 [ "*.md" ]
 fileType = text.html.markdown
+
+[ "Brewfile" ]
+fileType = source.ruby
+
+[ "env" ]
+fileType = source.shell
